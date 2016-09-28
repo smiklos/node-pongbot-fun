@@ -1,5 +1,5 @@
 Helper = require('hubot-test-helper')
-helper = new Helper('pongbot.coffee')
+helper = new Helper('../lib/pongbot.js')
 
 co     = require('co')
 expect = require('chai').expect
